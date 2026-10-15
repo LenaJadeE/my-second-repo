@@ -45,13 +45,13 @@ public class VariableApp {
 
 // Question 1:
 // The Number of Days in a week
-
-
+int daysInWeek = 7;
+System.out.println("There are " + daysInWeek + " days in a week.");
 
 // Question 2:
 // Price of coffee (4.99)
-
-
+double coffeePrice = 4.99;
+System.out.println("A cup of coffee costs $" + coffeePrice + ".");
 
 // Question 3:
 // Your favorite letter
