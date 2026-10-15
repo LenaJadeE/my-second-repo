@@ -30,11 +30,13 @@ public class VariableApp {
 
 // Question 4:
 // Declare a variable to store whether you have pets (yes/no)
-
+    String hasPets = "Yes";
+    System.out.println("Do I have pets? " + hasPets + ".");
 
 // Question 5:
 // Declare a variable with a nice message or saying
-
+    String niceMessage = "I hope everyone finds 20 bucks today.";
+    System.out.println(niceMessage);
 
     }
 }
