@@ -4,6 +4,8 @@ public class VariableApp {
     public static void main(String[] args) {
 
 
+// Exercise 2
+
 // Question 1:
 // declare variables here
 // then code solution
@@ -12,6 +14,7 @@ public class VariableApp {
 
 // REPEAT FOR NEXT EXERCISE
 
+// Step 1:
 
 // Question 1:
 // Declare a variable to store your favorite color
@@ -37,6 +40,37 @@ public class VariableApp {
 // Declare a variable with a nice message or saying
     String niceMessage = "I hope everyone finds 20 bucks today.";
     System.out.println(niceMessage);
+
+// Step 2:
+
+// Question 1:
+// The Number of Days in a week
+
+
+
+// Question 2:
+// Price of coffee (4.99)
+
+
+
+// Question 3:
+// Your favorite letter
+
+
+
+// Question 4:
+// Whether it's raining (true or false)
+
+
+
+// Info Step 2-5:
+// Print all values in complete sentences
+
+
+
+// Step 3
+
+
 
     }
 }
