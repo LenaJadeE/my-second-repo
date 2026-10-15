@@ -52,13 +52,15 @@ public class MathApp {
 
 // Question 6:
 // Find and display the absolute (positive) value of a variable after it is set to -3.8
-
+    double negativeNumber = -3.8;
+    double absoluteValue = Math.abs(negativeNumber);
+    System.out.println("The absolute value of " + negativeNumber + " is " + absoluteValue);
 
 
 // Question 7:
 // Find and display a random number between 0 and 1
-
-
+    double randomNumber = Math.random();
+        System.out.println("A random number between zero and one is " + randomNumber);
 
 // Question 8:
 // Calculate how many minutes are in 24 days, use a variable for each value you
