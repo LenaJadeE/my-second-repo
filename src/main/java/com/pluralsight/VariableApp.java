@@ -63,15 +63,8 @@ System.out.println("My favorite letter is " + favoriteLetter + ".");
 boolean isRaining = false;
 System.out.println("It is raining right now: " + isRaining + ".");
 
-
 // Info Step 2-5:
 // Print all values in complete sentences
-
-
-
-// Step 3
-
-
 
     }
 }
