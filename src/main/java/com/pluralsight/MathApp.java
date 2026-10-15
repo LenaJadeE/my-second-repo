@@ -34,18 +34,21 @@ public class MathApp {
 // Find and display the area of a circle whose radius is 7.25
     double radius = 7.25;
     double circleArea = Math.PI * Math.pow(radius, 2);
-    System.out.println()
+    System.out.println("The area of a circle with radius " + radius + " is ");
 
 
 // Question 4:
 // Find and display the square root of a variable after it is set to 5.0
-
-
+    double numberToRoot = 5.0;
+    double squareRoot = Math.sqrt(numberToRoot);
+    System.out.println("The square root of " + numberToRoot + " is " + squareRoot);
 
 // Question 5:
 // Find and display the distance between the points (5, 10) and (85, 50)
-
-
+    double x1 = 5, y1 = 10;
+    double x2 = 85, y2 = 50;
+    double distance = Math.sqrt(Math.pow(x2 -x1, 2) + Math.pow (y2 - y1, 2));
+    System.out.println("The Distance between (" + x1 + ", " + y1 + ") and (" + x2 + ", " + y2 + ") is " + distance);
 
 // Question 6:
 // Find and display the absolute (positive) value of a variable after it is set to -3.8
