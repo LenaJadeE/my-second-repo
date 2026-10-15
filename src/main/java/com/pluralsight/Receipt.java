@@ -1,5 +1,7 @@
 package com.pluralsight;
 
+import java.text.DecimalFormat;
+
 public class Receipt {
     public static void main(String[] args) {
 
@@ -16,7 +18,8 @@ public class Receipt {
         double itemPrice = 7.10;
         int quantity = 3;
 
-
-        System.out.println("You bought " + quantity + " " + itemName + " for $" + itemPrice);
+    //I wanted to show how to neatly align the price in a priced proper format
+        DecimalFormat df = new DecimalFormat("0.00");
+        System.out.println("You bought " + quantity + " " + itemName + " for $" + df.format(itemPrice));
     }
 }
