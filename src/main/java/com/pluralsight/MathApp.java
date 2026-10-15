@@ -1,5 +1,7 @@
 package com.pluralsight;
 
+import java.text.DecimalFormat;
+
 public class MathApp {
     public static void main(String[] args) {
 // Questions:
@@ -20,7 +22,8 @@ public class MathApp {
     double bobSalary = 65000.00;
     double garySalary = 72000.00;
     double highestSalary = Math.max( bobSalary,garySalary);
-    System.out.println("The highest salary is " + highestSalary);
+    DecimalFormat df = new DecimalFormat("0.00");
+    System.out.println("The highest salary is $" + df.format(highestSalary) + ".");
 
 // Question 2:
 // Find and display the smallest of two variables named carPrice and
@@ -28,39 +31,40 @@ public class MathApp {
     double carPrice = 28500.00;
     double truckPrice = 34900.00;
     double lowestPrice = Math.min(carPrice, truckPrice);
-    System.out.println("The lower of the two vehicle prices is " + lowestPrice);
+    DecimalFormat df2 = new DecimalFormat("0.00");
+    System.out.println("The lower of the two vehicle prices is $" + df2.format(lowestPrice) + ".");
 
 // Question 3:
 // Find and display the area of a circle whose radius is 7.25
     double radius = 7.25;
     double circleArea = Math.PI * Math.pow(radius, 2);
-    System.out.println("The area of a circle with radius " + radius + " is ");
+    System.out.println("The area of a circle with radius " + radius + " is " + circleArea + ".");
 
 
 // Question 4:
 // Find and display the square root of a variable after it is set to 5.0
     double numberToRoot = 5.0;
     double squareRoot = Math.sqrt(numberToRoot);
-    System.out.println("The square root of " + numberToRoot + " is " + squareRoot);
+    System.out.println("The square root of " + numberToRoot + " is " + squareRoot + ".");
 
 // Question 5:
 // Find and display the distance between the points (5, 10) and (85, 50)
     double x1 = 5, y1 = 10;
     double x2 = 85, y2 = 50;
     double distance = Math.sqrt(Math.pow(x2 -x1, 2) + Math.pow (y2 - y1, 2));
-    System.out.println("The Distance between (" + x1 + ", " + y1 + ") and (" + x2 + ", " + y2 + ") is " + distance);
+    System.out.println("The Distance between (" + x1 + ", " + y1 + ") and (" + x2 + ", " + y2 + ") is " + distance + ".");
 
 // Question 6:
 // Find and display the absolute (positive) value of a variable after it is set to -3.8
     double negativeNumber = -3.8;
     double absoluteValue = Math.abs(negativeNumber);
-    System.out.println("The absolute value of " + negativeNumber + " is " + absoluteValue);
+    System.out.println("The absolute value of " + negativeNumber + " is " + absoluteValue + ".");
 
 
 // Question 7:
 // Find and display a random number between 0 and 1
     double randomNumber = Math.random();
-        System.out.println("A random number between zero and one is " + randomNumber);
+        System.out.println("A random number between zero and one is " + randomNumber + ".");
 
 // Question 8:
 // Calculate how many minutes are in 24 days, use a variable for each value you
@@ -69,13 +73,12 @@ public class MathApp {
     int hoursPerDay = 24;
     int minutesPerHour = 60;
     int totalMinutes = days * hoursPerDay * minutesPerHour;
-    System.out.println("There are " + totalMinutes + " minutes in " + days + "days.");
+    System.out.println("There are " + totalMinutes + " minutes in " + days + " days.");
 
 // BONUS: How many milliseconds?
-
-
-
-
+   long millisecondsPerMinute = 60 * 1000;
+   long totalMilliseconds = totalMinutes * millisecondsPerMinute;
+   System.out.println("There are " + totalMilliseconds + " milliseconds in " + days + " days.");
 
     }
 }
