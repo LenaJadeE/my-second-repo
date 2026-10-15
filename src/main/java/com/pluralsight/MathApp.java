@@ -64,7 +64,14 @@ public class MathApp {
 
 // Question 8:
 // Calculate how many minutes are in 24 days, use a variable for each value you
-// calculate with. BONUS: How many milliseconds?
+// calculate with.
+    int days = 24;
+    int hoursPerDay = 24;
+    int minutesPerHour = 60;
+    int totalMinutes = days * hoursPerDay * minutesPerHour;
+    System.out.println("There are " + totalMinutes + " minutes in " + days + "days.");
+
+// BONUS: How many milliseconds?
 
 
 
