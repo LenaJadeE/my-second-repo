@@ -55,12 +55,13 @@ System.out.println("A cup of coffee costs $" + coffeePrice + ".");
 
 // Question 3:
 // Your favorite letter
-
-
+char favoriteLetter = 'L';
+System.out.println("My favorite letter is " + favoriteLetter + ".");
 
 // Question 4:
 // Whether it's raining (true or false)
-
+boolean isRaining = false;
+System.out.println("It is raining right now: " + isRaining + ".");
 
 
 // Info Step 2-5:
