@@ -1,3 +1,5 @@
+package com.pluralsight;
+
 public class MathApp {
     public static void main(String[] args) {
 // Questions:
@@ -15,8 +17,10 @@ public class MathApp {
 // highestSalary. Determine which salary is greater using Math.max() and
 // store the answer in highestSalary.  Set the initial salary variables to any value
 // you want. Print the answer (i.e "The highest salary is …")
-
-
+    double bobSalary = 65000.00;
+    double garySalary = 72000.00;
+    double highestSalary = Math.max(bobSalary,garySalary);
+    System.out.println("");
 
 // Question 2:
 // Find and display the smallest of two variables named carPrice and
