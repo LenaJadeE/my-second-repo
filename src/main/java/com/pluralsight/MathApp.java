@@ -19,18 +19,22 @@ public class MathApp {
 // you want. Print the answer (i.e "The highest salary is …")
     double bobSalary = 65000.00;
     double garySalary = 72000.00;
-    double highestSalary = Math.max(bobSalary,garySalary);
-    System.out.println("");
+    double highestSalary = Math.max( bobSalary,garySalary);
+    System.out.println("The highest salary is " + highestSalary);
 
 // Question 2:
 // Find and display the smallest of two variables named carPrice and
 // truckPrice.  Set the variables to any value you want.
-
-
+    double carPrice = 28500.00;
+    double truckPrice = 34900.00;
+    double lowestPrice = Math.min(carPrice, truckPrice);
+    System.out.println("The lower of the two vehicle prices is " + lowestPrice);
 
 // Question 3:
 // Find and display the area of a circle whose radius is 7.25
-
+    double radius = 7.25;
+    double circleArea = Math.PI * Math.pow(radius, 2);
+    System.out.println()
 
 
 // Question 4:
